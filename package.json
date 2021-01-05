@@ -1,0 +1,13 @@
+{
+	"name": "jacare-data-api",
+	"image": "heroku/nodejs",
+	"version": "0.0.1",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: Did you seriously think I'd write tests for this?\" && exit 1"
+	},
+  	"dependencies": {
+    	"express": "^4.17.1"
+  	}
+}
